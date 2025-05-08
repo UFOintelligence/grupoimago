@@ -18,32 +18,37 @@ button:focus {
 	background-repeat: no-repeat;
 	min-height: 100vh; /* Se adapta a la altura de la pantalla */
   }
+.jumbotron-classic-content {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
   .jumbotron-classic-content {
-	padding: 100px 20px;
-	text-align: center;
+    padding: 60px 15px;
   }
-  
-  @media (max-width: 768px) {
-	.jumbotron-classic-content {
-	  padding: 60px 15px;
-	}
-  
-	.jumbotron-classic-content h1 {
-	  font-size: 26px;
-	}
-  
-	.jumbotron-classic-content p {
-	  font-size: 16px;
-	}
-  
-	.title-docor-text {
-	  font-size: 14px;
-	}
-  
-	.button-md {
-	  padding: 10px 20px;
-	  font-size: 14px;
-	}
+
+  .jumbotron-classic-content h1 {
+    font-size: 26px;
+  }
+
+  .jumbotron-classic-content p {
+    font-size: 16px;
+  }
+
+  .title-docor-text {
+    font-size: 14px;
+  }
+
+  .button-md {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+.empresas-img {
+	width: 500px; /* o el ancho deseado */
+	height: 500px; /* o la altura deseada */
+	object-fit: contain; /* o "cover" si quieres recortar en vez de ajustar */
   }
 	  
   .post-modern {
