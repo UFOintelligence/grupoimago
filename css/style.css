@@ -46,8 +46,8 @@ button:focus {
   }
 }
 .empresas-img {
-	width: 400px; /* o el ancho deseado */
-	height: 400px; /* o la altura deseada */
+	width: 200px; /* o el ancho deseado */
+	height: 200px; /* o la altura deseada */
 	object-fit: contain; /* o "cover" si quieres recortar en vez de ajustar */
   }
 	  
