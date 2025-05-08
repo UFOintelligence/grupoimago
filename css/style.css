@@ -12,7 +12,40 @@ button:focus {
 	object-fit: cover;     /* mantiene proporción y recorta si es necesario */
 	border-radius: 8px;    /* opcional, para esquinas redondeadas */
   }
+  .swiper-slide {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 100vh; /* Se adapta a la altura de la pantalla */
+  }
+  .jumbotron-classic-content {
+	padding: 100px 20px;
+	text-align: center;
+  }
   
+  @media (max-width: 768px) {
+	.jumbotron-classic-content {
+	  padding: 60px 15px;
+	}
+  
+	.jumbotron-classic-content h1 {
+	  font-size: 26px;
+	}
+  
+	.jumbotron-classic-content p {
+	  font-size: 16px;
+	}
+  
+	.title-docor-text {
+	  font-size: 14px;
+	}
+  
+	.button-md {
+	  padding: 10px 20px;
+	  font-size: 14px;
+	}
+  }
+	  
   .post-modern {
     height: 100%;
     display: flex;
