@@ -2,6 +2,29 @@
 /*
 * Trunk version 2.0.0
 */
+
+.swiper-slider-minimal {
+  height: 60vh; /* Reduce la altura a 60% del viewport */
+  min-height: 400px; /* Opcional: asegura una altura mínima */
+}
+
+.jumbotron-classic-content {
+  padding: 2rem 1rem; /* Reduce el espacio interno */
+}
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.jumbotron-classic-content h1,
+.jumbotron-classic-content p {
+  margin-bottom: 1rem; /* Ajusta según lo que necesites */
+}
+
+.card-body ul {
+  margin-top: 0; /* Reduce el espacio entre la lista y el contenido anterior */
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -45,7 +68,44 @@ button:focus {
     font-size: 14px;
   }
 }
-.empresas-img {
+.card-img-top {
+  height: 200px;  /* Fijamos la altura de las imágenes */
+  object-fit: cover;  /* Aseguramos que las imágenes mantengan su proporción sin distorsionarse */
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-height: 3em; /* Para que el título tenga un tamaño uniforme */
+}
+
+.card-text {
+  font-size: 0.95rem;
+  min-height: 7em; /* Ajustar el texto para que haya espacio suficiente */
+  overflow: hidden;
+}
+
+.row {
+  margin-bottom: 30px; /* Separar las filas */
+}
+
+.card {
+  margin-bottom: 20px; /* Separar las tarjetas dentro de la fila */
+}
+
+.col-12 {
+  margin-bottom: 30px; /* Margen extra en la columna para separar filas */
+}
+
+.card .empresas-img {
 	width: 200px; /* o el ancho deseado */
 	height: 200px; /* o la altura deseada */
 	object-fit: contain; /* o "cover" si quieres recortar en vez de ajustar */
